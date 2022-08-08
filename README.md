@@ -1,6 +1,6 @@
 # JellyContracts
 
-A smart contract framework for distributing token rewards.
+A smart contract framework for token rewards.
 
 
 ### Documentation

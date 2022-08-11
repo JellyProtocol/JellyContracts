@@ -1,18 +1,26 @@
 # Jelly Protocol
 
-A smart contract framework for token rewards.
+A smart contract framework for rewards and token distribution.
 
-## Jelly Contracts
-The Jelly protocol is split into seperate templates; Tokens, pools, access controls, lists, and descriptors. These modular templates are combined together into our Jelly recipes, with the first permissionless recipe being the JellyDropRecipe.
+## Jelly Templates
+The Jelly protocol is comprised of various smart contract templates; Tokens, pools, access controls, lists, and descriptors. Once these templates are deployed and added to the JellyFactory, they're able to be cloned and deployed for a fraction of the original gas cost. 
 
-## JellyDrop - Airdrops
+## Jelly Recipes
+Our modular templates can be combined together into Jelly recipes, with the first permissionless recipe being the JellyDropRecipe.
+
+### JellyDrop - Airdrops
 Jelly Airdrops use Merkle Proofs for whitelists at scale. Projects can launch their own token Airdrops using Jelly.
 Available with Airdrip for token vesting and Fancy Claim, the new safe way to claim.
 
-## JellyPool - Farming 
+### JellyPool - Farming 
 #### JELLY/USDC as first example before Recipe is created
 The first version of the Jelly Farm launched in May 2022 with Staking NFTs representing the staked LPs, a whitelisted pool, upgradeable rewarder and support for multiple rewards tokens. The JellyPool contract will form the basis of the Farming Recipe, and like the Airdrop Recipe can be used to create your own farm out of the box.
 
+## Security
+Bug bounties apply to some of the smart contracts hosted in this repository. Visit [hats.finance](https://hats.finance/) for current vaults.
+
+## Licencing
+Most of the Solidity source code is currently unlicensed.  
 
 ## Links
 #### Website

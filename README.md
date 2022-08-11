@@ -20,7 +20,7 @@ The first version of the Jelly Farm launched in May 2022 with Staking NFTs repre
 Bug bounties apply to some of the smart contracts hosted in this repository. Visit [hats.finance](https://hats.finance/) for current vaults.
 
 ## Licencing
-Most of the Solidity source code is currently unlicensed.  
+UNLICENCED. Contact us at hello@jelly.io for licencing enquires. 
 
 ## Links
 #### Website
